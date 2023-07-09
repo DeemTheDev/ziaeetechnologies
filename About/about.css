@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+  }
+  
+  .block {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #000;
+    margin-right: 10px;
+  }
