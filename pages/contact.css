@@ -1,15 +1,18 @@
+/*Background Image for Contact Us page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 body{
-    background-image: url("C:\Users\ziaee\OneDrive\Documents\GitHub\ziaeetechnologies\media\background.jpg");
+    background-image: url("media/background3.jpg");
+    background-size: cover;
 }
 
-
-
-
-.conact-nav{
+/*CSS styling for HEADER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    
 }
 .nav-links{
     list-style: none;
@@ -24,4 +27,14 @@ body{
 }
 .nav-links li a{
     text-decoration: none;
+}
+
+/*CSS for FORM >>>>>>>>>>>>>>>>>>*/
+form{
+    background-color: #FFFFFF;
+    padding: 3px;
+    padding-top: 30px;
+    border-radius: 10px;
+    width: 20%;
+    height: 30%;
 }
