@@ -1,0 +1,20 @@
+.conact-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-links li{
+    margin: 0 15;
+}
+.nav-links li a{
+    text-decoration: none;
+}
