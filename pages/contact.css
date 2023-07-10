@@ -10,9 +10,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    background-color: #FFFFFF;
     border-radius: 3px;
-    
+}
+nav h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: #4682B4;
+    font-weight: 700;
+
 }
 .nav-links{
     list-style: none;
@@ -26,15 +31,115 @@ nav{
     margin: 0 15;
 }
 .nav-links li a{
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
+    color: #CC313D;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /*CSS for FORM >>>>>>>>>>>>>>>>>>*/
 form{
-    background-color: #FFFFFF;
-    padding: 3px;
-    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 220px;
+    box-shadow: 0 0 40 #040404;
     border-radius: 10px;
-    width: 20%;
-    height: 30%;
+    width: 200px;
+    height: 20%;
+    backdrop-filter: blur(10px);
+    border: 2px #040404;
+}
+
+form * {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+form h3{
+    color: #4682B4;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 2px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+label{
+    color: #CC313D;
+    float: left;
+    display: block;
+    margin-top: 1px;
+    font-size: 15px;
+    font-weight: 350;
+    font-family: "Poppins", sans-serif;
+}
+
+input{
+    display: block;
+    height: 30px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding: 0 10;
+    margin-top: 1px;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+}
+.submit{
+    background-color: #CC313D;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+/*CSS styles for CONTACT INFORMATION*/
+.container1{
+    align-items: center;
+    padding: 10px;
+    backdrop-filter: blur(3px);
+    width: 70%;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    color:#CC313D;
+    border-bottom: 1px solid #4682B4;
+    
+    
+}
+.container2{
+    align-items: center;
+    padding: 10px;
+    backdrop-filter: blur(3px);
+    width: 70%;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    color: #CC313D;
+    border-bottom: 1px solid #4682B4;
+    
+    
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 3px;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 3px;
+}
+.label-phone{
+    color:#4682B4;
+    font-weight: 600;
+}
+.label-email{
+    color: #4682B4;
+    font-weight: 600;
 }
