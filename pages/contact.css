@@ -1,3 +1,10 @@
+body{
+    background-image: url("C:\Users\ziaee\OneDrive\Documents\GitHub\ziaeetechnologies\media\background.jpg");
+}
+
+
+
+
 .conact-nav{
     display: flex;
     justify-content: space-between;
