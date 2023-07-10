@@ -1,3 +1,10 @@
+body{
+    background: url("background.jpg");
+}
+
+
+
+
 .conact-nav{
     display: flex;
     justify-content: space-between;
