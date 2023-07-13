@@ -1,10 +1,94 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  background-color: #f2f2f2;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+#head{
+text-align: center;
+font-family: 'Poppins';
+font-weight: 700;
+}
+#Idea{
+text-align: center;
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 200;
+}
 .container {
-    display: flex;
-  }
-  
-  .block {
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #000;
-    margin-right: 10px;
-  }
+display: flex;
+}
+
+.block {
+flex: 1;
+padding: 20px;
+border: 1px solid #000;
+margin-right: 10px;
+}
+#blockst{
+font-family:'Poppins';
+font-weight: 700;
+}
+
+
+#Main{
+width: 500px;
+padding-left:15px;
+padding-right:15px;
+padding-top:15px;
+padding-bottom: 15px;
+margin:1px;
+background-image:transparent;
+overflow: relative;
+}
+
+
+
+body{
+min-height: 100vh;
+background: #0c192c;
+font-family:'Poppins'
+}
+.container{
+position: relative;
+width : 100%;
+height : 100vh;
+overflow: hidden;
+}
+.bubbles{
+position:relative;
+display: flex;
+
+}
+.bubbles span{
+position : relative;
+width: 30px;
+height:30px;
+background:#4fc3dc;
+margin : 0 4px;
+border-radius: 50%;
+box-shadow: 0 0 0 10px #4fc3dc44,0 0 50px #4fc3dc,0 0 100px #4fc3dc;
+animation: animate 15s linear infinite;
+animation-duration: calc(130s / var(--i));
+}
+.bubbles span:nth-child(even){
+background:#ff2d75;
+box-shadow: 0 0 0 10px #ff2d7544 ,
+0 0 50px #ff2d75 ,
+0 0 100px #ff2d75;
+}
+@keyframes animate{
+
+0%{
+  transform: translateY(100vh) scale(0);
+}
+ 100%{
+  transform: translateY(-10vh) scale(1);
+}
+}
